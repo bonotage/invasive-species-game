@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69862a70.chunk.css",
+    "main.js": "/static/js/main.cfb2c2ce.chunk.js",
+    "main.js.map": "/static/js/main.cfb2c2ce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4d0db23d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4d0db23d.js.map",
+    "static/js/2.08c744ba.chunk.js": "/static/js/2.08c744ba.chunk.js",
+    "static/js/2.08c744ba.chunk.js.map": "/static/js/2.08c744ba.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3141b2c27cda064d3ba5920c28243de5.js": "/precache-manifest.3141b2c27cda064d3ba5920c28243de5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.69862a70.chunk.css.map": "/static/css/main.69862a70.chunk.css.map",
+    "static/js/2.08c744ba.chunk.js.LICENSE.txt": "/static/js/2.08c744ba.chunk.js.LICENSE.txt",
+    "static/media/styles.module.css": "/static/media/Game_Of_Squids.92db132f.otf",
+    "static/media/Lobby.png": "/static/media/Lobby.5e16c2ae.png",
+    "static/media/DialogBox.css": "/static/media/Nintendo-DS-BIOS.1888b71a.ttf",
+    "static/media/bedroom.jpg": "/static/media/bedroom.93f9c0e2.jpg",
+    "static/media/card.png": "/static/media/card.1ce74ac6.png",
+    "static/media/danube.mp3": "/static/media/danube.ca47a1f8.mp3",
+    "static/media/knight.jpg": "/static/media/knight.12fe2eee.jpg",
+    "static/media/money.png": "/static/media/money.25123873.png",
+    "static/media/piggy.png": "/static/media/piggy.d93aad18.png",
+    "static/media/squid-game-minimalist-characters-0.jpg": "/static/media/squid-game-minimalist-characters-0.0b826c8f.jpg",
+    "static/media/squid-game-minimalist-characters-1.jpg": "/static/media/squid-game-minimalist-characters-1.ae8e07d5.jpg",
+    "static/media/squid-game-minimalist-characters-2.jpg": "/static/media/squid-game-minimalist-characters-2.4c968f9e.jpg",
+    "static/media/squid-game-minimalist-characters-3.jpg": "/static/media/squid-game-minimalist-characters-3.1770c12b.jpg",
+    "static/media/squid-game-minimalist-characters-4.jpg": "/static/media/squid-game-minimalist-characters-4.0b1016fb.jpg",
+    "static/media/squid-game-minimalist-characters-5.jpg": "/static/media/squid-game-minimalist-characters-5.41042131.jpg",
+    "static/media/squid-game-minimalist-characters-6.jpg": "/static/media/squid-game-minimalist-characters-6.4e0fd252.jpg",
+    "static/media/squid-game-minimalist-characters-7.jpg": "/static/media/squid-game-minimalist-characters-7.bce9db83.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d0db23d.js",
+    "static/js/2.08c744ba.chunk.js",
+    "static/css/main.69862a70.chunk.css",
+    "static/js/main.cfb2c2ce.chunk.js"
+  ]
+}
