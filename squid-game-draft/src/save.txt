@@ -1,0 +1,7 @@
+<Router>
+{/* <App /> */}
+<Routes>
+    <Route exact path="/" component={App}/>
+    <Navigate to path = "/Game1" component = {Game1}/>
+</Routes>
+</Router>

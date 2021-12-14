@@ -1,0 +1,98 @@
+.game {
+  // background-image: url("./resources/bedroom.jpg");
+  // background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: opacity(40%);
+  filter: blur(0.2em);
+  top: 0em;
+}
+
+.piggy {
+  // display: flex;
+  // text-align: center;
+  width: 20em;
+  height: 20em;
+  // background: black;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  filter: drop-shadow(0 0 30px rgb(230, 206, 73));
+}
+
+.money {
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  left: 45%;
+  top: 0%;
+  filter: drop-shadow(0 0 12px rgb(212, 250, 189));
+}
+
+.money[dropIn="1"] {
+  animation: dropin 2s 1;
+}
+
+@keyframes dropin {
+  0% {
+    opacity: 0;
+  }
+  // 50% {
+  //   opacity: 100;
+  //   transform: translateY(250%);
+  // }
+  // 75% {
+  //   transform: rotate(90deg);
+  // }
+  100% {
+    transform: translateY(400%) rotate(180deg);
+    // transform:
+  }
+}
+
+.image {
+  // display: block;
+  // margin: 2em auto;
+  position: absolute;
+  filter: hue-rotate(210deg);
+  filter: brightness(10);
+  filter: drop-shadow(0 0 12px rgb(100, 98, 98));
+
+  // filter: blur(3px);
+  // left: 0%;
+  // top: 50%;
+}
+.image[wobble="1"] {
+  animation: wobble 1s 1;
+}
+
+@keyframes wobble {
+  // 25% {
+  //   transform: rotate(15deg);
+  // }
+  // 50% {
+  //   transform: rotate(-30deg);
+  // }
+  // 75% {
+  //   transform: rotate(5deg);
+  // }
+  5% {
+    transform: rotate(15deg);
+  }
+  10% {
+    transform: rotate(-15deg);
+  }
+  15% {
+    transform: rotate(15deg);
+    // transform: translateY(30%);
+  }
+  20% {
+    transform: rotate(-15deg);
+    // transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+}
