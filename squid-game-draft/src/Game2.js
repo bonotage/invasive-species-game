@@ -9,11 +9,13 @@ import bedroom from "./resources/bedroom.jpg";
 
 const port = process.env.PORT || 4001;
 
-const ENDPOINT = "http://127.0.0.1:" + port;
+// const ENDPOINT = "http://127.0.0.1:" + port;
+const ENDPOINT = "https://squid-plus-game.herokuapp.com/";
 
 let locations = [];
 const n = 6;
 const socket = socketIOClient(ENDPOINT);
+// const socket = io();
 let x = [];
 let y = [];
 
