@@ -48,7 +48,10 @@ const DialogBox = ({ index }) => {
   return (
     <div className="DialogWindow">
       <div className="DialogTitle">Stats</div>
-      <Message message={messages[index][currentMessage]} key={currentMessage} />
+      <Message
+        message={messages[index][currentMessage]}
+        key={index * 10 + currentMessage}
+      />
       <div onClick={handleClick} className="DialogFooter">
         Next
       </div>

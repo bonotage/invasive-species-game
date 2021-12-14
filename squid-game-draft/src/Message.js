@@ -12,6 +12,8 @@ const Message = ({ message }) => {
     [message]
   );
 
+  console.log(message);
+
   console.log(items); //issue not with memo or items
   console.log(items[items.length - 1].key);
 
@@ -31,19 +33,6 @@ const Message = ({ message }) => {
 
   return (
     <div>
-      <div className="DialogMessage">
-        {flush.map(({ item, props, key }) => {
-          // {
-          //   console.log(item.item);
-          // }
-          return (
-            <animated.span key={key} style={props}>
-              {item.item}
-            </animated.span>
-          );
-        })}
-      </div>
-
       <div className="DialogMessage">
         {transitions.map(({ item, props, key }) => {
           // {
