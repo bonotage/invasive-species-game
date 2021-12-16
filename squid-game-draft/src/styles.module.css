@@ -1,10 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto-Mono);
 
 @font-face {
   font-family: "Game Of Squids";
   src: local("Game of Squids"), url("./fonts/Game_Of_Squids.otf"),
     format("opentype");
 }
+
+@font-face {
+  font-family: "Nintendo DS BIOS";
+  src: local("Nintendo DS BIOS"), url("./fonts/Nintendo-DS-BIOS.ttf"),
+    format("truetype");
+}
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -83,13 +92,17 @@ code {
 }
 
 .subheader {
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(199, 194, 194);
   text-align: center;
-  font-weight: 300;
+  font-weight: 100;
   width: 100%;
   display: block;
   font-size: 1.5em;
-  font-family: "Roboto";
+  margin-bottom: 0.5em;
+  /* font-family: "Roboto"; */
+  /* font-family: "Press Start 2P"; */
+  font-family: "Roboto Mono";
 }
 
 .characterBox {
@@ -99,12 +112,13 @@ code {
   /* border: 1px solid rgb(194, 5, 115); */
   background: rgb(4, 115, 115);
   color: white;
+  /* color: rgb(199, 194, 194); */
   margin: 6px 6px;
   overflow: hidden;
   text-align: center;
 
   font-size: 0.7em;
-  font-family: "Roboto";
+  font-family: "Roboto Mono";
 }
 
 .characterBox img {
@@ -186,6 +200,7 @@ button.morph {
   background: rgb(35, 153, 147);
   border: 1px solid #fff;
   font-family: Patua One, sans-serif;
+  /* font-family: Roboto Mono; */
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;

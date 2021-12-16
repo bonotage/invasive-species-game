@@ -38,13 +38,13 @@ import card from "./resources/card.png";
 
 const characterSelections = [
   { type: "Agribusiness", src: agribusinessImg, id: 0 },
-  { type: "Lanternfly", src: lanternflyImg, id: 1 },
+  { type: "Displaced Species", src: lanternflyImg, id: 1 },
   { type: "Citizen", src: citizenImg, id: 2 },
   { type: "Conservationist", src: conservationImg, id: 3 },
   { type: "Government", src: governmentImg, id: 4 },
-  { type: "Plants", src: plantImg, id: 5 },
+  { type: "Other Species", src: plantImg, id: 5 },
   { type: "Farmer", src: farmerImg, id: 6 },
-  { type: "Hunter", src: hunterImg, id: 7 },
+  { type: "Exterminator", src: hunterImg, id: 7 },
   // { type: '', src: summonerImg },
   // { type: '', src: phantomImg },
 ];
